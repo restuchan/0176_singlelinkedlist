@@ -116,4 +116,5 @@ class List
     {
         SingleLinkedList mhs;
         int nim;
+        char ch;
         

@@ -92,4 +92,23 @@ class List
         return true;
     }
 
-    
+    void traverse()
+    {
+        if (listEmpty())
+        {
+            cout << "\nlist kosong\n";   
+        }
+        else
+        {
+            cout << "\nData didalam list:\n";
+            Node *currentNode = START;
+            while (currentNode != NULL)
+            {
+                cout << currentNode->noMhs << endl;
+                currentNode = currentNode->next;
+            }
+            cout << endl;
+        }
+    }
+
+

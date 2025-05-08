@@ -109,12 +109,11 @@ class List
             }
             cout << endl;
         }
-    }
+    };
 
 
-    int main ()
-    {
-        SingleLinkedList mhs;
+int main () {
+        List mhs;
         int nim;
         char ch;
         while (1)

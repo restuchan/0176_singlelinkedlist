@@ -40,4 +40,7 @@ class List
             return;
         }
 
+        Node *previous = START;
+        Node *current = START;
+
         

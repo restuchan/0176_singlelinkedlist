@@ -109,8 +109,8 @@ class List
             }
             cout << endl;
         }
-    };
-
+    }
+};
 
 int main () {
         List mhs;
@@ -197,5 +197,4 @@ int main () {
             break;
             }
         }
-    }
-}; 
+};
